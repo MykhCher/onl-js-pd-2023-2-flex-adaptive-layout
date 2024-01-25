@@ -1,0 +1,1 @@
+Landing page to contain info about the company. Written in order to have a practice in technologies learnt during the period of studying HTML/CSS.
