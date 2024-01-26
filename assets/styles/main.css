@@ -66,6 +66,36 @@ header a:hover {
     padding-bottom: 35px;
 }
 
+#section-b {
+    padding: 35px;
+    color: #333;
+}
+
+#section-b ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b ul li {
+    width: 31%;
+}
+
+.card {
+    background-color: #fff;
+    height: 500px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 10px;
+}
+
 /* Media options */
 
 @media(min-width: 700px) {
@@ -75,12 +105,17 @@ header a:hover {
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
     }
     
-    .content-wrap{
+    .content-wrap, #section-b ul{
         grid-column: 2/4;
     }
 
     #section-a .content-text {
         columns: 2;
         column-gap: 35px;
+    }
+
+    #section-b ul {
+        display: flex;
+        justify-content: space-around;
     }
 }
